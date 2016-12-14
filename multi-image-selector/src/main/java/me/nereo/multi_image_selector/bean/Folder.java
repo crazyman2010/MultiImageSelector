@@ -19,7 +19,7 @@ public class Folder {
         try {
             Folder other = (Folder) o;
             return TextUtils.equals(other.path, path);
-        }catch (ClassCastException e){
+        } catch (ClassCastException e) {
             e.printStackTrace();
         }
         return super.equals(o);

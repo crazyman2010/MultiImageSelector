@@ -22,6 +22,7 @@ build/
 /.idea/workspace.xml
 /.idea/libraries
 .DS_Store
+*.aar
 
 # Local configuration file (sdk path, etc)
 local.properties

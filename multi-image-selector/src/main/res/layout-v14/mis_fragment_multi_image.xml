@@ -14,7 +14,7 @@
         android:paddingBottom="?android:attr/actionBarSize"
         android:clipToPadding="false"
         android:numColumns="auto_fit"
-    android:columnWidth="@dimen/mis_image_size"/>
+        android:columnWidth="@dimen/mis_image_size" />
 
     <RelativeLayout
         android:clickable="true"
@@ -42,6 +42,6 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent" />
 
-        </RelativeLayout>
+    </RelativeLayout>
 
 </RelativeLayout>
